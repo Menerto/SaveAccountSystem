@@ -1,0 +1,3 @@
+#Add on the end of file:
+LOGIN_SAVE_BUTTON	Save
+LOGIN_LOAD_BUTTON	Load
