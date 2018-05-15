@@ -7,6 +7,14 @@ from _winreg import *
 
 
 #Search for:
+self.yServerBoard = 0
+
+#Add below:
+if not os.path.exists("SOFTWARE\EDENWORK\Accounts"):
+	key = CreateKey(HKEY_CURRENT_USER,"SOFTWARE\EDENWORK\Accounts")
+
+
+#Search for:
 ime.AddExceptKey(93)
 
 #Add below:
